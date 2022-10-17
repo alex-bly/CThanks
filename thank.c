@@ -3,7 +3,7 @@
 #include <time.h>
 
 
-void main()
+int main()
 {
 	srand(time(0));
 	int num = (rand() % (100 + 1));
@@ -16,4 +16,5 @@ void main()
 	{
 		printf("No Problem\n");
 	}
+	return 0;
 }
